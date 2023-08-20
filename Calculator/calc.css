@@ -1,0 +1,40 @@
+.db {
+    width: 100px;
+    color: #000;
+    height: 20px;
+    
+}
+
+.container{
+  
+    justify-content: center;
+    align-items: center;
+   display: flex; 
+   height: 100vh;  
+   
+}
+
+.calculator{
+    grid-template-columns: repeat(4);
+    display: grid;
+    color: aqua;
+    
+}
+
+input{
+    grid-column: span 4;
+    height: 80px;
+    width: 355px;
+    font-size: 2rem;
+    background-color: chartreuse;
+
+}
+
+button{
+    height: 90px;
+    width: 90px;
+    color: blue;
+    background-color: azure;
+    
+
+}
